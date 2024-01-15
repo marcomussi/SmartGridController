@@ -1,6 +1,6 @@
 # A Reinforcement Learning Controller Optimizing Costs and Battery State of Health in Smart Grids
 
-## Marco Mussi, Luigi Pellegrino, Oscar Francesco Pindaro, Marcello Restelli and Francesco Trovò
+## Marco Mussi, Luigi Pellegrino, Oscar Francesco Pindaro, Marcello Restelli and Francesco Trovò
 
 This is a library for Lithium-Ion Battery simulation. It models and simulates a domestic environment composed of a house that consumes electric energy and a photo-voltaic panel that produces energy. The domestic environment is linked to a controller that decides how much of the net power coming from the domestic environment will be directed on an accumulation system and how much will be bought/sold on the electric grid.
 The simulator has been written following the standard framework [Gym](https://gym.openai.com/) from [OpenAI](https://openai.com/). The repository contains a wrapper for the library [MushroomRL](https://mushroomrl.readthedocs.io/en/latest/), used to design and test RL agents.
