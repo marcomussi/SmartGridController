@@ -5,6 +5,19 @@
 This is a library for Lithium-Ion Battery simulation. It models and simulates a domestic environment composed of a house that consumes electric energy and a photo-voltaic panel that produces energy. The domestic environment is linked to a controller that decides how much of the net power coming from the domestic environment will be directed on an accumulation system and how much will be bought/sold on the electric grid.
 The simulator has been written following the standard framework [Gym](https://gym.openai.com/) from [OpenAI](https://openai.com/). The repository contains a wrapper for the library [MushroomRL](https://mushroomrl.readthedocs.io/en/latest/), used to design and test RL agents.
 
+### Cite this code
+If you use this code in your scientific work, please cite:
+```tex
+@article{mussi2024reinforcement,
+  author={Mussi, Marco and Pellegrino, Luigi and Pindaro, Oscar Francesco and Restelli, Marcello and Trov\'{o}, Francesco},
+  title={A Reinforcement Learning Controller Optimizing Costs and Battery State of Health in Smart Grids},
+  journal={Journal of Energy Storage},
+  publisher={Elsevier},
+  year={2024}
+}
+```
+
+
 ### Installation
 Use [Conda](https://docs.conda.io/en/latest/) to install all the dependencies of RLithium using the provided configuration file _requirements.yml_.
 
